@@ -91,7 +91,7 @@ async def cp1(bot,update):
 	usertype(int(user_id),"⚠️ Account Downgraded")
 	addpre(int(user_id))
 	await update.message.edit("Added Successfully To Upload Limit 2GB")
-	await bot.send_message(user_id,"Hey You Are Downgraded To Cease Limit 2GB. Check Your Plan Here /myplan \n\n**Contact Admin :** @calladminrobot")
+	await bot.send_message(user_id,"Hey You Are Downgraded To Cease Limit 2GB. Check Your Plan Here /myplan \n\n**Contact Admin :**@PCADMINOFFICIALBOT ")
 
 
 @Client.on_callback_query(filters.regex('cp2'))
