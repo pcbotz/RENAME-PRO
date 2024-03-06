@@ -16,10 +16,10 @@ class script(object):
 <b>⦿ /viewthumb - Use This Command To See Your Thumbnail</b>
 <b>⦿ /delthumb - Use This Command To Delete Your Thumbnail</b>"""
 
-    ABOUT_TXT = """<b>🤖 My Name :</b> <a 𝙋𝘾</a>
-<b>📝 Language :</b> <a Python 3</a>
-<b>🚀 Server :</b> <a My own Server </a>
-<b>🧑‍💻 Developer :</b> <a 𝙋𝘾</a>
+    ABOUT_TXT = """<b>🤖 My Name :</b> 𝙋𝘾
+<b>📝 Language :</b> Python 3
+<b>🚀 Server :</b> My own Server 
+<b>🧑‍💻 Developer :</b> 𝙋𝘾
 
 <b>♻️ Bot Made By :</b> @pcott"""
 
