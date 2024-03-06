@@ -32,18 +32,18 @@ async def start(client, message):
     except IndexError:
         id = None
 
-    loading_sticker_message = await message.reply_sticker("CAACAgIAAxkBAALmzGXSSt3ppnOsSl_spnAP8wHC26jpAAJEGQACCOHZSVKp6_XqghKoHgQ")
-    await asyncio.sleep(2)
+    loading_sticker_message = await message.reply_sticker("CAACAgIAAxkBAAITGGXn981IpjheIwK3rNVW97V5mW-vAAL-DQACgYmoSEuJdnVsz1aANAQ")
+    await asyncio.sleep(3)
     await loading_sticker_message.delete()
-    txt=f"""Hello {message.from_user.mention} \n\n➻ This Is An Advanced And Yet Powerful Rename Bot.\n\n➻ Using This Bot You Can Rename And Change Thumbnail Of Your Files.\n\n➻ You Can Also Convert Video To File Aɴᴅ File To Video.\n\n➻ This Bot Also Supports Custom Thumbnail And Custom Caption.\n\n<b>Bot Is Made By @HxBots</b>"""
+    txt=f"""Hello {message.from_user.mention} \n\n➻ This Is An Advanced And Yet Powerful Rename Bot.\n\n➻ Using This Bot You Can Rename And Change Thumbnail Of Your Files.\n\n➻ You Can Also Convert Video To File Aɴᴅ File To Video.\n\n➻ This Bot Also Supports Custom Thumbnail And Custom Caption.\n\n<b>Bot Is Made By @PCADMINOFFICIALBOT</b>"""
     await message.reply_photo(photo=BOT_PIC,
                                 caption=txt,
                                 reply_markup=InlineKeyboardMarkup(
-                                        [[InlineKeyboardButton("📢 Updates", url="https://t.me/HxBots"),
-                                        InlineKeyboardButton("💬 Support", url="https://t.me/HxSupport")],
-                                        [InlineKeyboardButton("🛠️ Help", callback_data='help'),
-				                        InlineKeyboardButton("❤️‍🩹 About", callback_data='about')],
-                                        [InlineKeyboardButton("🧑‍💻 Developer 🧑‍💻", url="https://t.me/Kirodewal")]
+                                        [[InlineKeyboardButton("📡 𝐂𝐡𝐚𝐧𝐧𝐞𝐥  📡", url="https://t.me/pcott"),
+                                        InlineKeyboardButton("🌐 𝐌𝐨𝐯𝐢𝐞 𝐆𝐫𝐨𝐮𝐩 🌐", url="https://t.me/pcmoviegroup")],
+                                        [InlineKeyboardButton("🚨 𝐇𝐞𝐥𝐩 🚨", callback_data='help'),
+				                        InlineKeyboardButton("💌 𝐀𝐛𝐨𝐮𝐭 💌", callback_data='about')],
+                                        [InlineKeyboardButton("🧑‍💻 Developer 🧑‍💻", url="https://t.me/PCADMINOFFICIALBOT")]
                                         ]))
     return
 
