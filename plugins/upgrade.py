@@ -20,10 +20,10 @@ async def upgrade(bot,update):
 	Price Rs 179  ind /🌎 2.16$  per Month
 	
 	
-	Pay Using Upi I'd `hxbots@sbi`
-	
+	If you want to upgrade your plan Contact admin
+	Admin : @PCADMINOFFICIALBOT
 	After Payment Send Screenshots Of 
-        Payment To Admin @Kirodewal"""
+        Payment To Admin @PCADMINOFFICIALBOT"""
 	keybord = InlineKeyboardMarkup([[ 
         			InlineKeyboardButton("Admin",url = "https://t.me/kirodewal")], 
         			[InlineKeyboardButton("Phone Pay",url = "https://upayme.vercel.app/Hxbots@sbi"),
@@ -50,14 +50,14 @@ async def upgradecm(bot,message):
 	Price Rs 179  ind /🌎 2.16$  per Month
 	
 	
-	Pay Using Upi I'd `HxBots@sbi`
-	
+        If you want to upgrade your plan Contact admin
+	Admin : @PCADMINOFFICIALBOT
 	After Payment Send Screenshots Of 
-        Payment To Admin @Kirodewal"""
+        Payment To Admin @PCADMINOFFICIALBOT"""
 	keybord = InlineKeyboardMarkup([[ 
-        			InlineKeyboardButton("Admin",url = "https://t.me/kirodewal")], 
-        			[InlineKeyboardButton("Phone Pay",url = "https://upayme.vercel.app/Hxbots@sbi"),
-        			InlineKeyboardButton("Paytm Wallet/UPI",url = "https://upayme.vercel.app/Hxbots@sbi")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
+        			InlineKeyboardButton("👑 𝐀𝐝𝐦𝐢𝐧 👑",url = "https://t.me/PCADMINOFFICIALBOT")], 
+        			[InlineKeyboardButton("🌐 𝐌𝐨𝐯𝐢𝐞 𝐆𝐫𝐨𝐮𝐩 🌐",url = "https://t.me/pcmoviegroup"),
+        			InlineKeyboardButton("📡 𝐂𝐡𝐚𝐧𝐧𝐞𝐥  📡",url = "https://t.me/pcott")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
 	await message.reply_text(text = text,reply_markup = keybord)
 
 
