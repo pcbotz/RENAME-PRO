@@ -63,11 +63,3 @@ async def upgradecm(bot,message):
 
 
 
-
-
-
-
-# Jishu Developer 
-# Don't Remove Credit 🥺
-# Telegram Channel @Madflix_Bots
-# Developer @JishuDeveloper
