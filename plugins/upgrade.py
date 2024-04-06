@@ -25,8 +25,9 @@ async def upgrade(bot,update):
 	After Payment Send Screenshots Of 
         Payment To Admin @PCADMINOFFICIALBOT"""
 	keybord = InlineKeyboardMarkup([[ 
-        			InlineKeyboardButton("Admin",url = "https://t.me/PCADMINOFFICIALBOT")]
-        			[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
+        			InlineKeyboardButton("👑 𝐀𝐝𝐦𝐢𝐧 👑",url = "https://t.me/PCADMINOFFICIALBOT")], 
+        			[InlineKeyboardButton("🌐 𝐌𝐨𝐯𝐢𝐞 𝐆𝐫𝐨𝐮𝐩 🌐",url = "https://t.me/pcmoviegroup"),
+        			InlineKeyboardButton("📡 𝐂𝐡𝐚𝐧𝐧𝐞𝐥  📡",url = "https://t.me/pcott")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
 	await update.message.edit(text = text,reply_markup = keybord)
 	
 
